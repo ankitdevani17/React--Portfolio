@@ -1,0 +1,27 @@
+.a{
+    display:flex;
+    height:100vh;
+    margin-top:20px;
+}
+.a-left{
+        flex: 50%;
+
+}
+.a-left h2{
+        text-align: center;
+}
+.a-right h2{
+        text-align: center;
+}
+.a-right{
+        flex: 50%;
+
+}
+ul {
+  margin-top:15px;
+
+}
+.a-desc{
+        margin-top:15px;
+        margin-left: 5px;
+}

@@ -19,9 +19,11 @@ const Intro = () => {
           </div>
            </div>
            </div>
-           <div className="i-right">
-           <img src={Me} alt="" className="i-img" />
-           </div>
+           <div className="wrapper">
+            <img src={Me} className="i-img" alt="Responsive image"/>
+            </div>
+
+           
 
            </div>
     )
