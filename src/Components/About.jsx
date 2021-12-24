@@ -9,8 +9,13 @@ const About = () => {
          <h2> About Me</h2>
          <p className="a-desc">
          I am a third year CSE Undergrad at Ahmedabad University.
-         My interests of area are Web Development & Design.
- 
+         My area of interests are Web Development & Design.
+         <div className="icons">
+         <a href="https://www.linkedin.com/in/ankit-devani-417651190/" class="fa fa-linkedin" target="__ankit"></a>
+         <a href="https://github.com/ankitdevani17" class="fa fa-github" target="__ankit"></a>
+         <a href="mailto:devaniankit1990@.gmail.com" class="fa fa-envelope" target="__ankit"></a>
+         </div>
+
         </p>
          </div>
 

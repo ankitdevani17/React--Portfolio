@@ -19,9 +19,42 @@
 }
 ul {
   margin-top:15px;
+  display: flex;
+  flex-direction: column;
+text-align: space-between;
 
+}
+ul li{
+        margin:10px;
 }
 .a-desc{
         margin-top:15px;
         margin-left: 5px;
+}
+.fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin:20px;
+
+      }
+.fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+.icons{
+        display: flex;
+        justify-content: center;
+
+
+}
+.fa-github{
+        background:black;
+        color:white;
+}
+.fa-envelope{
+        color:red;
+        background:black;
 }
