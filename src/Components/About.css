@@ -2,9 +2,11 @@
     display:flex;
     height:100vh;
     margin-top:20px;
+    align-items:center;
 }
 .a-left{
         flex: 50%;
+        position: relative;
 
 }
 .a-left h2{
@@ -26,6 +28,7 @@ text-align: space-between;
 }
 ul li{
         margin:10px;
+        font-weight:bold;
 }
 .a-desc{
         margin-top:15px;
@@ -57,4 +60,13 @@ ul li{
 .fa-envelope{
         color:red;
         background:black;
+}
+.img-bg{
+        clip-path: polygon(36% 53%, 0% 100%, 0 0);
+        background-color: #59b256;
+        width: 20%;
+        height:50%;
+        position: absolute;
+        top:0;
+        right:0;
 }
