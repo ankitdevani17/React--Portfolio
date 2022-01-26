@@ -16,11 +16,15 @@ h2{
     display: flex;
     flex-direction:column;
     align-items: center;
-    justify-content: center;
+
   }
   
   .c-right {
     flex: 50%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
   }
   .c-title {
     font-size: 60px;
@@ -41,3 +45,26 @@ h2{
     height: 30px;
     margin-right: 20px;
   }
+  .container {
+    width: 50%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    margin-bottom:25px;
+
+  }
+  .cheader{
+    margin-bottom:30px;
+  }
+
+
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 65%; background-color: #f44336;} /* Red */
+  .php {width: 80%; background-color: #808080;} /* Dark Grey */

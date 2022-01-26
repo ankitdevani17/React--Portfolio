@@ -20,14 +20,33 @@ function Contact() {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
-              4,Ruchika Apartment,ShantiSadan Society<br/>
+              4,Ruchika Apartment,ShantiSadan Society
               Ellisbridge,Ahmedabad -380006
             </div>
           </div>
         </div>
       </div>
       <div className="c-right">
-          
+          <h2 className='cheader'> Skills </h2>
+          <p className ="cp">Python</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>ReactJS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>NodeJS</p>
+<div class="container">
+  <div class="skills js">65%</div>
+</div>
+
+<p>Figma</p>
+<div class="container">
+  <div class="skills php">80%</div>
+</div>
       </div>
   </div>
     )

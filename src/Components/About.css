@@ -61,12 +61,3 @@ ul li{
         color:red;
         background:black;
 }
-.img-bg{
-        clip-path: polygon(36% 53%, 0% 100%, 0 0);
-        background-color: #59b256;
-        width: 20%;
-        height:50%;
-        position: absolute;
-        top:0;
-        right:0;
-}
