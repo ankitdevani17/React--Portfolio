@@ -5,6 +5,7 @@ import Email from "../images/email.png";
 import Address from "../images/address.png";
 function Contact() {
     return (
+      <div className ="for-footer">
         <div className="c">
   <div className="c-wrapper">
   <h2>Contact Me</h2>
@@ -48,7 +49,15 @@ function Contact() {
   <div class="skills php">80%</div>
 </div>
       </div>
+      
   </div>
+  <footer>
+        
+<p align="center">@Ankit Devani, Some rights reserved</p>
+
+  
+</footer>
+</div>
     )
 }
 
