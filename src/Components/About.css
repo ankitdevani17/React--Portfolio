@@ -19,14 +19,14 @@
         flex: 50%;
 
 }
-ul {
+.a-right-list {
   margin-top:15px;
   display: flex;
   flex-direction: column;
 text-align: space-between;
 
 }
-ul li{
+.aboutl{
         margin:10px;
         font-weight:bold;
 }

@@ -22,12 +22,12 @@ const About = () => {
         <div class="a-right">
         <h2> Positions of Responsibility</h2>
         <ul className = "a-right-list">
-            <li>Treasurer, The Management Club, Ahmedabad University</li>
-            <li>CDC Placement Committee Member, Ahmedabad University</li>
-            <li>Registration Head, Ingenium Techfest 2021</li>
-            <li>Student Mitr, Ahmedabad University</li>
-            <li>Campus Ambassador 2020, IIT Roorkee Techfest</li>
-            <li>Instructor at InvincibleNGO</li>
+            <li className = "aboutl">Treasurer, The Management Club, Ahmedabad University</li>
+            <li className = "aboutl">CDC Placement Committee Member, Ahmedabad University</li>
+            <li className = "aboutl">Registration Head, Ingenium Techfest 2021</li>
+            <li className = "aboutl">Student Mitr, Ahmedabad University</li>
+            <li className = "aboutl">Campus Ambassador 2020, IIT Roorkee Techfest</li>
+            <li className = "aboutl">Instructor at InvincibleNGO</li>
         </ul>
         </div>
 
