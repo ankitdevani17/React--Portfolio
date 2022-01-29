@@ -37,7 +37,11 @@ p{
 
 }
   
-
+.card{
+  border:double;
+  border-color:#59b256;
+  border-width: medium;
+}
   
   /* Clear floats after the columns */
   .row:after {

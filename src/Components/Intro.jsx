@@ -3,6 +3,7 @@ import Me from "../images/me.jpg";
 const Intro = () => {
     return (
         <div className="i">
+        
            <div className="i-left">
            <div className="i-left-wrapper">
                <h1 className="i-intro"> Hello, My name is </h1>

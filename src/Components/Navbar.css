@@ -3,6 +3,9 @@
     flex-direction : row;
     background: rgb(89, 178, 86,0.7);
 margin:10px;
+border:double;
+border-color:white;
+border-width: thick;
 
 }
 .nav_left {
@@ -31,6 +34,17 @@ margin:10px;
      display:inline;
      margin-right:30px;
      text-decoration: aqua;
-
      
  }
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }

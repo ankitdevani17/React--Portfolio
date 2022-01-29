@@ -3,6 +3,7 @@
     display : flex;
     height : 100vh;
 
+
 }
 .i-left {
     padding: 0px 50px;
@@ -10,6 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border:#59b256;
+
   }
   
   .i-right {
@@ -21,20 +24,32 @@
     flex-direction: column;
 
 }
+img{
+border:double;
+border-color: #59b256;
+border-width: medium;
+}
+
 
 .i-intro{
     font-size: 27px;
     font-weight:300;
+    margin-left:10px;
+
+
 
 }
 
 .i-name{
     font-size: 45px;
+    margin-left:10px;
+    margin-left:10px;
 
 }
 .i-title  {
     height: 50px;
     overflow: hidden;
+    margin-left:10px;
 
   } 
 
@@ -45,6 +60,7 @@
     color: #59b256;
     display: flex;
     align-items: center;
+    
   }
 
   .i-title-wrapper {
@@ -53,6 +69,7 @@
   }
   .i-desc{
    margin-top: 20px;
+   margin-left:10px;
   }
   @keyframes move {
 
