@@ -28,6 +28,8 @@ img{
 border:double;
 border-color: #59b256;
 border-width: medium;
+margin-top:10px;
+margin-right: 10px;
 }
 
 
@@ -85,4 +87,13 @@ border-width: medium;
     width:100%;
     height:100%;
 
+  }
+  @media (max-width: 1000px){
+ .i-title-wrapper{
+   z-index: -1;
+ }
+ .i-desc{
+  margin-top: 0px;
+  margin-left:10px;
+ }
   }

@@ -1,31 +1,30 @@
 import React from 'react'
 import "./Navbar.css";
-import {Link} from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return <>  
-    <div className ="nav">
-        <div className ="nav_left">
-         <p> ✨ Ankit Devani</p>
-        </div>
-        <div className ="nav_right">
-         <ul className = "navul">
-             <li className = "navl">
-                 Home
+  <nav>
+      <div class="logo">Ankit Devani</div>
+      <input type="checkbox" id="click"/>
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+      <li className = "navl">
+                 <NavLink exact activeclassName = "active_clas " to ='/'>Home</NavLink>
              </li>
              <li className="navl">
-                 About
+             <NavLink exact activeclassName = "active_clas " to ='/About'>About</NavLink>
              </li>
              <li className="navl">
-                 Projects
+             <NavLink exact activeclassName = "active_clas " to ='/projects'>Projects</NavLink>
              </li>
              <li className="navl">
-                 Contact
+             <NavLink exact activeclassName = "active_clas " to ='/contact'>Contact</NavLink>
              </li>
-         </ul>
-        </div>
-
-    </div>
+      </ul>
+    </nav>
   </>
 };
 
