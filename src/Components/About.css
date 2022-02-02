@@ -61,3 +61,11 @@ text-align: space-between;
         color:red;
         background:black;
 }
+@media (max-width: 500px){
+        .a{
+                display:flex;
+                height:100vh;
+                margin-top:20px;
+                align-items:center;
+                flex-direction: column;
+            }}

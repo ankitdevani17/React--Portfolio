@@ -60,7 +60,11 @@ input[type="checkbox"]{
     z-index: 1;
   }
 }
-@media (max-width: 920px) {
+
+@media (max-width: 920px)
+ {nav{
+position:fie
+}
   nav .menu-btn i{
     display: block;
   }
@@ -80,6 +84,9 @@ input[type="checkbox"]{
   }
   #click:checked ~ ul{
     left: 0;
+  }
+  nav ul{
+    position:fixed;
   }
   nav ul li{
     width: 100%;

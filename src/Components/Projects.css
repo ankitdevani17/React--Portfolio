@@ -6,7 +6,8 @@
     display:flex;
     height:100vh;
     margin-top: 20px;
-}* {
+}
+* {
     box-sizing: border-box;
   }
 
@@ -57,11 +58,26 @@ p{
     text-align: center;
     background-color: #f1f1f1;
   }
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   
   /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }}
+      width: 50%
+    }
+    .row{
+    flex-direction: column;
+ align-items: center;
+    }
+  }
+  

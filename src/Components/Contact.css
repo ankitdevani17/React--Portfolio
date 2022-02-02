@@ -68,3 +68,11 @@ h2{
   .css {width: 80%; background-color: #2196F3;} /* Blue */
   .js {width: 65%; background-color: #f44336;} /* Red */
   .php {width: 80%; background-color: #808080;} /* Dark Grey */
+
+  @media screen and (max-width: 768px) {
+    .c{
+    flex-direction: column;
+ align-items: center;
+    }
+  }
+  
