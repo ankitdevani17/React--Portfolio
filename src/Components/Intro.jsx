@@ -1,10 +1,10 @@
 import "./Intro.css"
-import Me from "../images/me.jpg";
+import Me from "../images/me.png";
 const Intro = () => {
     return (
-        <div className="i">
+        <div id="flex" className="i">
         
-           <div className="i-left">
+           <div id ="A" className="i-left">
            <div className="i-left-wrapper">
                <h1 className="i-intro"> Hello, My name is </h1>
                <h1 className="i-name"> Ankit Devani</h1>
@@ -20,7 +20,7 @@ const Intro = () => {
           </div>
            </div>
            </div>
-           <div className="wrapper">
+           <div id ="B" className="wrapper">
             <img src={Me} className="i-img" alt="Responsive image" />
             </div>
 

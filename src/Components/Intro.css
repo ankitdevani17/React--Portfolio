@@ -27,12 +27,16 @@ box-sizing: border-box;
     flex-direction: column;
 
 }
-img{
-border:double;
-border-color: #59b256;
-border-width: medium;
+img{  width: 100%;
+  height: auto;
 margin-top:10px;
 margin-right: 10px;
+}
+.i-right-wrapper{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+
 }
 
 

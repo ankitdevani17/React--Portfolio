@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=PT+Serif&display=swap');
 *{
+    font-family: 'PT Serif', serif;
+}
+.navbar-brand{
+  color:#59b256;;
+  font-weight:bold;
+}
+.navbar-nav .nav-link {
+  color:#59b256;
+}
+/* *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -122,4 +133,4 @@ position:fie
 .content div{
   font-size: 40px;
   font-weight: 700;
-}
+} */

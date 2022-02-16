@@ -4,27 +4,31 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return <>  
-  <nav>
-      <div class="logo">Ankit Devani</div>
-      <input type="checkbox" id="click"/>
-      <label for="click" class="menu-btn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <ul>
-      <li className = "navl">
-                 <NavLink exact activeclassName = "active_clas " to ='/'>Home</NavLink>
-             </li>
-             <li className="navl">
-             <NavLink exact activeclassName = "active_clas " to ='/About'>About</NavLink>
-             </li>
-             <li className="navl">
-             <NavLink exact activeclassName = "active_clas " to ='/projects'>Projects</NavLink>
-             </li>
-             <li className="navl">
-             <NavLink exact activeclassName = "active_clas " to ='/contact'>Contact</NavLink>
-             </li>
+ <nav className="navbar navbar-expand-lg  bg-light">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="/">✨Ankit Devani</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <li className="nav-item">
+          <NavLink className="nav-link active" to="/">Home</NavLink>
+        </li>
+                <li className="nav-item">
+                <NavLink className="nav-link active" to="/about">About</NavLink>
+        </li>
+        <li className="nav-item">
+                <NavLink className="nav-link active" to="/projects">Projects</NavLink>
+        </li>
+        <li className="nav-item">
+                <NavLink className="nav-link active" to="/contact">Contact</NavLink>
+        </li>
+    
       </ul>
-    </nav>
+    </div>
+  </div>
+</nav>
   </>
 };
 
