@@ -2,11 +2,9 @@ import "./About.css"
 
 const Home = () => {
    return( <>
-    <div className="container-fluid">
+    <div className="container-fluid about">
     <div className="row">
-    <div className="col-10 mx-auto">
-    <div className="row my-5">
-    <div className="col-md-6 col-10 mx-auto">
+    <div className="col-md-6 col-12 mx-auto">
     <h1 className="text-center aboutr">About</h1>
     <p className="a-desc">
         I am a third year CSE Undergrad at Ahmedabad University.
@@ -17,7 +15,7 @@ const Home = () => {
         <a href="mailto:devaniankit1990@.gmail.com" class="fa fa-envelope" target="__ankit"></a>
         </div>
 </div> 
-    <div className="col-md-6 col-10 mx-auto">
+    <div className="col-md-6 col-12 mx-auto">
     <h1 className="text-center aboutr">Positions of Responsibility</h1>
     <ul className = "a-right-list">
     <li className = "aboutl">Committee Head, Ingenium Techfest 2022</li>
@@ -30,9 +28,7 @@ const Home = () => {
        </ul>
     
 </div> 
-</div>
 
-    </div>
     </div>
     </div>
     </>
