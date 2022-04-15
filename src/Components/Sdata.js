@@ -25,9 +25,9 @@ const Sdata = [
     desc: "This project helps to predict the Anxiety level in a human being using Machine Learning.",
     link: "https://github.com/ankitdevani17/Prediction-of-Anxiety-Using-ML"},
     {
-    text : "React - To do App",
-    desc: "This project helps to manage your to do list using React.",
-    link: "https://github.com/ankitdevani17/React-todo"
+    text : "Entertainment Hub in ReactJS",
+    desc: "A website to search movies involving the concepts of API Fetch, mapping, styled components & props",
+    link: "https://github.com/ankitdevani17/Entertainment-Hub"
 }
 ]
 export default Sdata;
